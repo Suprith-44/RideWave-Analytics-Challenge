@@ -84,3 +84,14 @@ This project analyzes RideWave's hourly fare data for bikes, autos, and cars in 
   smape = np.mean(np.abs(y_pred - y_true) / (np.abs(y_pred) + np.abs(y_true)))
   ```
 - Lower SMAPE = better performance.
+
+---
+
+## Results
+
+- **Data Exploration:** Identified trends, volatility, and influential features.
+- **Modeling:** SARIMAX, XGBoost, and VAR models built and evaluated.
+- **Submission:** Predictions for all vehicle types saved in required format.
+- **Business Insights:** Recommendations for dynamic pricing and service focus.
+
+---
